@@ -1,0 +1,23 @@
+@import 'variables';
+@import 'compass/css3/box-sizing';
+
+* {
+  @include box-sizing(border-box);
+}
+body{
+  &.home{
+    width: 100%;
+    background: $bg url('../images/meolans.jpg') center top no-repeat;
+    background-size: 100% auto;
+    font-family: 'Lato' Arial sans-serif;
+  }
+}
+.user-menu{
+  display: block;
+  margin: 0;
+  padding: 0;
+  li{
+    display: inline-block;
+    padding: 10px;
+  }
+}

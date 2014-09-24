@@ -1,0 +1,79 @@
+/* line 6, ../sass/home.scss */
+.jumbotron {
+  position: relative;
+  margin: 0;
+  padding: 36% 0 0 0;
+  background: transparent none;
+}
+/* line 11, ../sass/home.scss */
+.jumbotron .container {
+  margin: 0 auto;
+}
+/* line 14, ../sass/home.scss */
+.jumbotron #purchase_flow {
+  height: 150px;
+  color: #0072a7;
+  position: relative;
+}
+/* line 18, ../sass/home.scss */
+.jumbotron #purchase_flow ul {
+  padding: 0;
+  counter-reset: step;
+}
+/* line 21, ../sass/home.scss */
+.jumbotron #purchase_flow ul li {
+  display: inline-block;
+  width: 16.3%;
+  list-style: none;
+  text-align: center;
+}
+/* line 26, ../sass/home.scss */
+.jumbotron #purchase_flow ul li [class*='icon'] {
+  display: block;
+  color: #00618d;
+  font-size: 64px;
+  text-shadow: 0 3px 5px #001b27;
+}
+/* line 32, ../sass/home.scss */
+.jumbotron #purchase_flow ul li .step-title {
+  color: #c2c2c2;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 24px;
+}
+/* line 38, ../sass/home.scss */
+.jumbotron #purchase_flow ul li:before {
+  display: block;
+  counter-increment: step;
+  content: counter(step);
+}
+/* line 45, ../sass/home.scss */
+.jumbotron #purchase_flow:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  z-index: -2;
+  content: '\00a0';
+  background-image: url("../images/meolans.jpg");
+  background-position: center -48%;
+  background-size: 100% auto;
+  -webkit-filter: blur(5px) grayscale(100%);
+  filter: blur(5px) grayscale(100%);
+}
+/* line 59, ../sass/home.scss */
+.jumbotron #purchase_flow:before {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  z-index: -1;
+  content: '\00a0';
+  background-color: #002E4E;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+}

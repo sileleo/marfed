@@ -1,0 +1,26 @@
+/* line 4, ../sass/base.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 8, ../sass/base.scss */
+body.home {
+  width: 100%;
+  background: #fff url("../images/meolans.jpg") center top no-repeat;
+  background-size: 100% auto;
+  font-family: 'Lato' Arial sans-serif;
+}
+
+/* line 15, ../sass/base.scss */
+.user-menu {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+/* line 19, ../sass/base.scss */
+.user-menu li {
+  display: inline-block;
+  padding: 10px;
+}
