@@ -8,24 +8,29 @@
 	position:absolute;
 	top:140px;
 	right:265px;
-	width:380px;
+	width:480px;
 	.btn-success{
 		background: $success url('../images/triangle.png') center top no-repeat;
 		border:0;
 		font-weight:300;
 		float:right;
-		height:65px;
+		height:80px;
 		width:25%;
 	}
-	.help-login{
+	.help-login {
 		background-color:$grey;
 		display:inline-block;
 		font-size:12px;
 		vertical-align:top;
-		height:65px;
+		height:80px;
 		width:75%;
-		p{
+		padding: 10px 15px;
+		p {
 			font-size:12px;
+			margin-bottom: 3px;
+			a {
+				color: $main;
+			}
 		}
 	}
 	input[type="text"], input[type="password"]{
@@ -33,12 +38,24 @@
 		font-size:18px;
 		height:65px;
 		padding:16px;
-		-webkit-box-shadow: inset 0px 0px 28px -5px rgba(0,0,0,0.39);
-		-moz-box-shadow: inset 0px 0px 28px -5px rgba(0,0,0,0.39);
-		box-shadow: inset 0px 0px 28px -5px rgba(0,0,0,0.39);
+		// -webkit-box-shadow: inset 0px 0px 28px -5px rgba(0,0,0,0.39);
+		// -moz-box-shadow: inset 0px 0px 28px -5px rgba(0,0,0,0.39);
+		// box-shadow: inset 0px 0px 28px -5px rgba(0,0,0,0.39);
 	}
-	.user-data{
+	textarea {
+		padding: 10px 16px;
+		margin-top: 25px;
+		border: none;
+		outline: none;
+	}
+	.user-data {
 		margin-bottom:25px;
+	}
+}
+
+.login-box {
+	.help-login {
+		padding-top: 20px;
 	}
 }
 

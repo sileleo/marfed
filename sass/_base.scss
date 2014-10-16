@@ -57,7 +57,7 @@ textarea::-webkit-input-placeholder {
 }
 
 body{
-  font-family: 'Lato' Arial sans-serif;
+  font-family: 'Lato', Arial, sans-serif;
   background: $bg;
   &.home{
     width: 100%;
@@ -73,18 +73,18 @@ body{
   position: absolute;
 }
 .navbar-brand{
+  width: 215px;
   img{
     display: block;
     width: 200px;
   }
-  .btn-primary{
-    @include border-radius(0);
-    width: 176px;
+  span {
+    text-align: center;
+    color: $text-contrast;
     text-transform: uppercase;
-    margin: 0 auto;
+    font-size: 13px;
     display: block;
-    padding: 3px;
-    border-top: 1px solid $active;
+    @include text-shadow(0 1px 4px lighten($main,10%));
   }
 }
 .navbar-inverse {
@@ -214,18 +214,21 @@ footer{
   bottom:0;
   overflow:hidden;
   position:fixed;
+  transition: all 0.5s ease;
   &:hover{
     height:280px;
     bottom:0;
     overflow:visible;
+    transition: all 0.5s ease;
   }
   h3{
     color: $highlight;
   }
   ul.products-list{
     list-style:none;
+    padding-left: 25px;
     li{
-      padding:4px 0;
+      padding:4px 0 6px;
       box-shadow: 0 -1px 0 rgba(0, 0, 0, .20) inset, 0 1px 0 rgba(255, 255, 255, .05);
       &:last-child{
         box-shadow: none;
@@ -233,11 +236,15 @@ footer{
       h4{
         color:$blue;
         margin:0;
+        font-weight: 300;
       }
       a{
         font-weight:100;
         text-shadow: 2px 2px black;
       }
     }
+  }
+  .logo {
+    margin-top: 5px;
   }
 }
