@@ -36,10 +36,10 @@
 	content: "\e604";
 }
 .icon-creditcard:before {
-	content: "\e606";
+	content: "\e605";
 }
 .icon-deliverycar:before {
-	content: "\e607";
+	content: "\e606";
 }
 .icon-discountlabel:before {
 	content: "\e607";
@@ -63,10 +63,10 @@
 	content: "\e60d";
 }
 .icon-addtobasket:before {
-	content: "\e601";
+	content: "\e600";
 }
 .icon-plus-sign:before {
-	content: "\e61c";
+	content: "\e61b";
 }
 .icon-euronotes:before {
 	content: "\e60e";
@@ -78,35 +78,33 @@
 	content: "\e610";
 }
 .icon-magnifier:before {
-	content: "\e612";
+	content: "\e611";
 }
 .icon-newbadge:before {
-	content: "\e613";
+	content: "\e612";
 }
 .icon-open:before {
 	content: "\e613";
 }
 .icon-parcel:before {
-	content: "\e615";
+	content: "\e614";
 }
 .icon-piggybank:before {
-	content: "\e616";
+	content: "\e615";
 }
 .icon-removefrombasket:before {
-	content: "\e617";
+	content: "\e616";
 }
 .icon-salebadge:before {
-	content: "\e618";
+	content: "\e617";
 }
 .icon-saletag:before {
-	content: "\e619";
+	content: "\e618";
 }
 .icon-ShoppingBag:before {
 	content: "\e619";
 }
 .icon-shoppingbasket:before {
-	content: "\e61b";
+	content: "\e61a";
 }
-.icon-user:before{
-	content: "\e600";
-}
+
